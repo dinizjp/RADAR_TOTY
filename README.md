@@ -1,7 +1,9 @@
 # RADAR
 
 ## Descrição
-O projeto RADAR é um script Python que automiza a coleta e atualização de dados através de emails recebidos, processa esses dados em arquivos Excel, e sincroniza-os com o Google Drive. O sistema busca emails específicos, extrai links de CSVs presentes em conteúdo HTML, faz download e consolida esses dados em um arquivo mensal, que é armazenado e atualizado automaticamente no Google Drive.
+O projeto RADAR é um script Python que automiza a coleta e atualização de dados através de emails recebidos, processa esses dados em arquivos Excel, e sincroniza-os com o Google Drive. 
+
+O sistema busca emails específicos, extrai links de CSVs presentes em conteúdo HTML, faz download e consolida esses dados em um arquivo mensal, que é armazenado e atualizado automaticamente no Google Drive.
 
 ## Sumário
 - [Dependências](#dependências)
