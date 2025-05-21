@@ -223,7 +223,7 @@ def main():
     logger.info("Início da execução do script.")
     
     # Data do dia atual (se quiser o dia anterior, ajuste para -1 dia se necessário)
-    hoje = datetime.now() #- timedelta(days=3)
+    hoje = datetime.now() #- timedelta(days=2)
     start_date_str = hoje.strftime("%d-%b-%Y")
     mes_ano = hoje.strftime('%Y_%m')  # Ex: 2024_12
     nome_arquivo = f"RADAR_{mes_ano}.xlsx"
